@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #Downloads and installs module-assistant and nvidia-kernel-common
 apt-get install module-assistant nvidia-kernel-common &&
 #Downloads and installs the files for you current kernel version.
