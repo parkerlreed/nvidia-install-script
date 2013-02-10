@@ -1,7 +1,7 @@
 #!/bin/bash
 #Downloads and installs module-assistant and nvidia-kernel-common
 apt-get install module-assistant nvidia-kernel-common &&
-#Downloads and installs the files for you current kernel version.
+#Downloads and installs the files for your current kernel version.
 m-a auto-install nvidia-kernel${VERSION}-source &&
 #Downloads drivers and utilities specific to your kernel version.
 apt-get install nvidia-glx${VERSION} &&
